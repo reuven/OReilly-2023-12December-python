@@ -1,6 +1,8 @@
 # Jupyter notebook from my "First Steps" training
 
-This repo will contain the Jupyter notebooks and other materials for my December training at O'Reilly
+This repo will contain the Jupyter notebooks and other materials for my December training at O'Reilly.
+
+I'll be using Noteable (https://app.noteable.io/) for my notebooks, and I encourage you to try it, too! (The free plan is more than enough for our purposes.)
 
 Enjoy!
 
