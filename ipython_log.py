@@ -1,3 +1,0 @@
-# IPython log file
-
-
