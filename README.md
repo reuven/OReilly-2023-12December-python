@@ -8,6 +8,7 @@ Notebooks:
 
 - Day 1, Thursday December 7: https://app.noteable.io/f/b407c799-da89-4d75-bebe-7265dbf137e5/OReilly---2023-12December-07.ipynb
 
+Published day 1 notebook is at:
 
 Enjoy!
 
