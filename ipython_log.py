@@ -195,3 +195,8 @@ for one_number in range(10):
     print(calc(one_number, '+', 5))
 for one_number in range(10):
     calc(one_number, '+', 5)
+# because the function "calc" no longer requires any interactive
+# inputs, I can put it inside of a "for" loop, and use it non-interactively.
+
+for one_number in range(10):
+    calc(one_number, '+', 5)
