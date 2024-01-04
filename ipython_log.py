@@ -1054,3 +1054,12 @@ calc(10, 20, '-')
 calc(10, 20, '+')
 calc(10, 20)
 calc(10, 20)   # now this works, thanks to the default
+# I can sum up to 5 integers, and I don't have to pass them as a list
+# rather, I can just pass them as arguments -- whatever I don't pass
+# will be given the value 
+
+def mysum(a=0, b=0, c=0, d=0, e=0):
+    return a + b + c + d + e
+    
+mysum(10, 20, 30
+mysum(10, 20, 30)
