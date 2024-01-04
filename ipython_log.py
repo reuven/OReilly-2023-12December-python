@@ -567,3 +567,5 @@ def smallest(numbers):
 
     return output
     
+smallest([10, 20, 30, 40, 50])
+smallest([10, 20, 30, -5, 40, 50])
