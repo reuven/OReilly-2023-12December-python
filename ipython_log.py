@@ -321,3 +321,7 @@ hello([10, 20, 30])
 hello(hello)
 def add(x, y):
     print(f'{x} + {y} = {x+y}')   
+# parameters: x  y
+# arguments   3  5   
+
+add(3, 5)    # positional arguments, because they're assigned based on their positions
