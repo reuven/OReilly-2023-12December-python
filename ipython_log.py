@@ -325,3 +325,9 @@ def add(x, y):
 # arguments   3  5   
 
 add(3, 5)    # positional arguments, because they're assigned based on their positions
+# we can also use keyword arguments:
+
+# parameters:   x    y
+# arguments:    3    5
+
+add(x=3, y=5)
