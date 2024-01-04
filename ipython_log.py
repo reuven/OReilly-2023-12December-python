@@ -1184,3 +1184,13 @@ print(x)   # what will the value of x be?
 
 # many people believe that x will be 100, because the x inside of the "for" loop is "local"
 # this is *NOT* the case! there is only one x here, across all of the code.
+# by contrast:
+
+x = 100
+
+def myfunc():
+    x = 200
+
+myfunc()
+
+print(x)
