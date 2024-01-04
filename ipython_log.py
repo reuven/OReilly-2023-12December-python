@@ -316,3 +316,6 @@ calc(a,b,c)
 def hello(name):
     print(f'Hello, {name}!')
 hello('world')
+hello(5)
+hello([10, 20, 30])
+hello(hello)
