@@ -16,3 +16,6 @@ def hello():
 # once I have defined a function, I can run it -- also "call it" or "execute it" with parentheses
 
 hello()
+# You *must* put the parentheses there -- otherwise, you get the function itself, not the result of running it
+
+hello
