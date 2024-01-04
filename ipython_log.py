@@ -715,3 +715,19 @@ smallest_int
 # assigned to two variables on the left via unpacking
 
 biggest_int, smallest_int = biggest_and_smallest([10, 20, -5, -3, 12])
+# AJ
+
+def biggest_and_smallest(num_list):
+    bigg = num_list[0]
+    sma = num_list[0]
+    
+    for each_num in num_list[1:]:
+        if each_num < sma:
+            sma = each_num
+        if each_num > bigg:
+            bigg = each_num
+    
+    return bigg, sma
+
+b1, s1 = biggest_and_smallest([10,20,-5,-3,12,45,50])
+print(f'{b1=}, {s1=}')
