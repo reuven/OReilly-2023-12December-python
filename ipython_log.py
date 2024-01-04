@@ -359,3 +359,4 @@ add(5, 10)
 # if, with add, I want to pass x as a keyword argument, then y *must* be a keyword argument, too.
 
 add(x=5, y=10)
+add()
