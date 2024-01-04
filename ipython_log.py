@@ -1013,3 +1013,7 @@ def hello(name):
 
 hello('world')
 hello()
+# we can give a default argument to a parameter by using =VALUE in the function's first line
+
+def hello(name='(no name)'):
+    return f'Hello, {name}!'
