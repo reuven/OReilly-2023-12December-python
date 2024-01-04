@@ -162,3 +162,4 @@ def hello(first, last):
     print(f'Hello, {first} {last}!')
 hello('Reuven', 'Lerner')
 hello('Reuven')
+hello()
