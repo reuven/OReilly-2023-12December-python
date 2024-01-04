@@ -838,3 +838,18 @@ d = frequencies(sentence)
 
 for key, value in d.items():
     print(f'{key}: {value}')
+# AD
+
+def frequency(s):
+    myDictionary = {}
+    for char in s:
+        if char in myDictionary:
+            myDictionary[char] += 1
+        else:
+            myDictionary[char] = 1
+    return myDictionary
+
+def printFrequencies(s):
+    freq = frequency(s)
+    for item in freq.items():
+        print(f'{item}: {freq[item]}')
