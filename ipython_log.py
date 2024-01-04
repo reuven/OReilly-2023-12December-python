@@ -188,3 +188,4 @@ def calc(first, op, second):
         result = f'(Bad operator {op})'
 
     print(f'{first} {op} {second} = {result}')
+calc(10, '+', 3)
