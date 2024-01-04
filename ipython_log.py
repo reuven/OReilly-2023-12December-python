@@ -828,3 +828,4 @@ def frequencies(s):
 
     return output
 frequencies('this is a test')
+sentence = input('Enter a sentence: ').strip()
