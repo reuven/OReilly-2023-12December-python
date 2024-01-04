@@ -163,3 +163,19 @@ def hello(first, last):
 hello('Reuven', 'Lerner')
 hello('Reuven')
 hello()
+def calc():
+    first = input('Enter first number: ').strip()
+    op = input('Enter operator: ').strip()
+    second = input('Enter second number: ').strip()
+
+    first = int(first)
+    second = int(second)
+
+    if op == '+':
+        result = first + second
+    elif op == '-':
+        result = first - second
+    else:
+        result = f'(Bad operator {op})'
+
+    print(f'{first} {op} {second} = {result}')
