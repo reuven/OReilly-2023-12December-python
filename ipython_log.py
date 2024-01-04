@@ -894,3 +894,5 @@ for char, count in result.items():
 
 help(len)     # in Jupyter, I can run the "help" function, passing a function as an argument
 help(str.lower)   # get help on the lower method for strings
+help(input(
+help(input)
