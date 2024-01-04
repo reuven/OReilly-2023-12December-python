@@ -669,3 +669,7 @@ def myfunc():
     return 10, 'hello', [10, 20, 30]   # still returning a tuple from our function!
 
 myfunc()
+mylist = [10, 20, 30]
+mylist.append(40)   # I have now added 40 to the end of mylist
+
+mylist
