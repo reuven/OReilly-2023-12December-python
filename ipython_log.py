@@ -114,3 +114,26 @@ def calc():
     print(first_num+second_num)
 
 calc()
+# AJ
+
+def calc():
+    num1 = input('Enter first number: ').strip()
+    oper = input('Enter the operator (+/-)').strip()
+    num2 = input('Enter second number: ').strip()
+    
+    if not num1.isdigit() or not num2.isdigit():
+        print('Please enter numbers')
+        break
+    
+    if not oper in ('+-'):
+        print('Please enter correct operator')
+        break
+    
+    if oper == '+':
+        tot = int(num1) + int(num2)
+    else:
+        tot = int(num1) - int(num2)
+    
+    print(f'{num1} {oper} {num2} = {tot}')
+
+calc()
