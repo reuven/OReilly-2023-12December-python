@@ -652,3 +652,7 @@ def odds_and_evens(numbers):
 
     return output
 odds_and_evens([10, 15, 20, 25, 30, 35])
+d = odds_and_evens([10, 15, 20, 25, 30, 35])
+
+for key, value in d.items():
+    print(f'{key}: {value}')
