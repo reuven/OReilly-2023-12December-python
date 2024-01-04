@@ -46,3 +46,4 @@ def calc():
 
     print(f'{first} {op} {second} = {result}')
 calc()
+calc()
