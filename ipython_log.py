@@ -1194,3 +1194,13 @@ def myfunc():
 myfunc()
 
 print(x)
+# by contrast:
+
+x = 100
+
+def myfunc():
+    x = 200   # this is a *local* variable x, and has *nothing* to do with the global x
+
+myfunc()
+
+print(x)
