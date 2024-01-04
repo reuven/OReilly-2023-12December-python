@@ -578,3 +578,16 @@ def smallest(mylist):
             small = num
     return small
 print(smallest([-12, -210, 20, 8, -9, 30, 9]))
+# AJ
+
+def smallest(lst):
+    sm = 0
+    
+    for each_num in lst:
+        if each_num < sm:
+            sm = each_num
+            
+    return sm
+    
+s = smallest([10, 20, -5, 30, 7, 8, -2])
+print(f'{s=}')
