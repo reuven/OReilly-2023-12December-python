@@ -24,3 +24,4 @@ hello
 def hello():
     print('Hello?')
 hello()
+type(hello)
