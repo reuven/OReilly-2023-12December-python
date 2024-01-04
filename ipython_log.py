@@ -283,3 +283,33 @@ def calc(first,op,second):
     print('Dont Know')
       
 calc(a,b,c)
+# PD
+
+a = int(input('enter 1st No').strip())
+b = input('enter the operator').strip()
+c = int(input('enter 2nd No.').strip())
+
+def calc(first,op,second):
+  if op == '+':
+    print(first+second)
+  elif op=='-':
+    print(first-second)
+  else:
+    print('Dont Know')
+      
+calc(a,b,c)
+# PD
+
+a = int(input('enter 1st No').strip())
+b = input('enter the operator').strip()
+c = int(input('enter 2nd No.').strip())
+
+def calc(first,op,second):
+  if op == '+':
+    print(first+second)
+  elif op=='-':
+    print(first-second)
+  else:
+    print('Dont Know')
+      
+calc(a,b,c)
