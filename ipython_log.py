@@ -1220,3 +1220,9 @@ def myfunc():
     print(x * 3)
 
 myfunc()
+x = 100
+
+def myfunc():
+    return x    # there is no local x, so we'll return the value of the global x
+
+myfunc()
