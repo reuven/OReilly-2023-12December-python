@@ -870,3 +870,22 @@ def printFrequencies(s):
     for key, value in freq.items():    # items returns (key, value)
         print(f'{key}: {value}')
 printFrequencies('this is a test')
+# HS
+
+user_input = input("Enter a string: ")
+
+def frequency(input_string):
+    char_frequency = {}
+
+    for char in input_string:
+        if char in char_frequency:
+            char_frequency[char] += 1
+        else:
+            char_frequency[char] = 1
+
+    return char_frequency
+
+result = frequency(user_input)
+
+for char, count in result.items():
+    print(f"'{char}' : {count} ")
