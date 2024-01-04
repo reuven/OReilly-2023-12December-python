@@ -893,3 +893,4 @@ for char, count in result.items():
 # what does it do? What inputs do I give it? What outputs do I get back?
 
 help(len)     # in Jupyter, I can run the "help" function, passing a function as an argument
+help(str.lower)   # get help on the lower method for strings
