@@ -1037,3 +1037,5 @@ def calc(first, second, op):
 
     return f'{first} {op} {second} = {result}'
 calc(10, 20, '-')
+calc(10, 20, '+')
+calc(10, 20)
