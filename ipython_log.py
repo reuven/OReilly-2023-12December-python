@@ -538,3 +538,23 @@ op = input('Enter operator: ').strip()
 second = input('Enter second number: ').strip()
 
 calc(first,op,second)
+# AD
+
+def calc(op1, op, op2):
+    if (type(op1) != int) or (type(op2) != int):
+        return 'Invalid Operands'
+    else:        
+        op1 = int(op1)
+        op2 = int(op2)
+        if op == '+':
+            result = op1 + op2
+        elif op == '-':
+            result = op1 - op2
+        else:
+            return 'Invalid Operator'
+        return result
+
+op1 = input("Enter First Number: ").strip()
+op = input("Enter Operator: ").strip()
+op2 = input("Enter Second Number: ").strip()    
+print(calc(op1, op, op2))
