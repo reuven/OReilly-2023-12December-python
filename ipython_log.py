@@ -1173,3 +1173,14 @@ def calc(first, second, op='+'):
     return f'{first} {op} {second} = {result}'
 
 help(calc)
+# a huge number of people who come to Python from other languages get confused by this!
+
+x = 100
+
+for i in range(10):
+    x = i * 3
+
+print(x)   # what will the value of x be?
+
+# many people believe that x will be 100, because the x inside of the "for" loop is "local"
+# this is *NOT* the case! there is only one x here, across all of the code.
