@@ -707,3 +707,4 @@ def biggest_and_smallest(numbers):
     return biggest, smallest   # return a tuple with what we found
 
     
+biggest_and_smallest([10, 20, -5, -3, 12])
