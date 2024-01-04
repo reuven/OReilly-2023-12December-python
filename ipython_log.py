@@ -1017,3 +1017,7 @@ hello()
 
 def hello(name='(no name)'):
     return f'Hello, {name}!'
+# parameters:  name
+# arguments:   'world'
+
+hello('world')
