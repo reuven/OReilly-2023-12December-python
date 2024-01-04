@@ -221,3 +221,14 @@ def calc(n1, op, n2):
     print(f'{n1} {op} {n2} = {tot}')
 
 calc(num1, oper, num2)
+# AJ 
+
+def calc(n1, op, n2):
+    if op == '+':
+        tot = int(n1) + int(n2)
+    elif op =='-':
+        tot = int(n1) - int(n2)
+    
+    print(f'{n1} {op} {n2} = {tot}')
+
+calc(10, '+', 20)
