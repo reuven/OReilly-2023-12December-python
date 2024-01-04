@@ -613,3 +613,18 @@ def smallest(entry):
   return min
 
 smallest([3,35,-2,7]) 
+# HS
+
+user_input = input("Enter elements of the list separated by spaces: ")
+lst_of_int = list(map(int, user_input.split()))
+
+def smallest_integer(lst_of_int):
+    smallest = lst_of_int[0]
+    for number in lst_of_int:
+        if number < smallest:
+            smallest = number
+    return smallest
+
+result = smallest_integer(lst_of_int)
+
+print(f"The smallest integer in the list is: {result}")
