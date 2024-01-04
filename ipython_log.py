@@ -1141,3 +1141,16 @@ print(f'{calc(10, 5, "+")}')
 print(f'{calc(10, 5, "-")}')
 mysum(10, 20, , 40)
 mysum(10, 20, e=100)
+def calc(first, second, op='+'):
+    if op == '+':
+        result = first + second
+
+    elif op == '-':
+        result = first - second
+
+    else:
+        result = f'(Unknown operator {op})'
+
+    return f'{first} {op} {second} = {result}'
+
+help(calc)
