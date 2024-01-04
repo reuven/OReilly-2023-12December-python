@@ -1139,3 +1139,5 @@ def calc(n1, n2, op='+'):
 print(f'{calc(10, 20)}')
 print(f'{calc(10, 5, "+")}')
 print(f'{calc(10, 5, "-")}')
+mysum(10, 20, , 40)
+mysum(10, 20, e=100)
