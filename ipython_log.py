@@ -468,3 +468,18 @@ def calc(n1, op, n2):
     result = f'Either of inputs are non-numeric'
   return(f'{n1} {op} {n2} = {result}')
 calc(First, Second, Oper)
+First = int(input('Enter the First Number :').strip())
+Second = int(input('Enter the Second Number :').strip())
+Oper = input('Enter the operator +, -').strip()
+
+def calc(n1, op, n2):
+  if type(n1) == int and type(n2) == int:
+    if op == '+':
+      result = n1 + n2
+    elif op == '-':
+      result = n1-n2
+    else:
+      result = f'Operator is undefined'
+  else:
+    result = f'Either of inputs are non-numeric'
+  return(f'{n1} {op} {n2} = {result}')
