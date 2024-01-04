@@ -853,3 +853,4 @@ def printFrequencies(s):
     freq = frequency(s)
     for item in freq.items():
         print(f'{item}: {freq[item]}')
+printFrequencies('this is a test')
