@@ -1063,3 +1063,22 @@ def mysum(a=0, b=0, c=0, d=0, e=0):
     
 mysum(10, 20, 30
 mysum(10, 20, 30)
+# AJ
+
+def calc(n1, n2, op='+'):
+    if type(n1) != int or type(n2) != int:
+        return f'Please enter correct numbers'
+    
+    if not oper in ('+-'):
+        return f'Please enter correct operator'
+    
+    if op == '+':
+        tot = n1 + n2
+    elif op =='-':
+        tot = n1 - n2
+    
+    return f'{n1} {op} {n2} = {tot}'
+
+print(f'{calc(10, 20)}')
+print(f'{calc(10, 5, '+')}')
+print(f'{calc(10, 5, '-')}')
