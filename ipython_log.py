@@ -313,3 +313,6 @@ def calc(first,op,second):
     print('Dont Know')
       
 calc(a,b,c)
+def hello(name):
+    print(f'Hello, {name}!')
+hello('world')
