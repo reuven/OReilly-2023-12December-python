@@ -591,3 +591,14 @@ def smallest(lst):
     
 s = smallest([10, 20, -5, 30, 7, 8, -2])
 print(f'{s=}')
+# VC
+
+def smallest(entry):
+  min = 0
+
+  for digit in range(entry):
+    if min > digit:
+      min = digit
+  return min
+
+smallest([3,35,-2,7]) 
