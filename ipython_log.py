@@ -25,3 +25,7 @@ def hello():
     print('Hello?')
 hello()
 type(hello)
+# I can now use my function in other code
+
+for i in range(5):
+    hello()
