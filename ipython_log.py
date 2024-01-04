@@ -437,3 +437,18 @@ def calc(first, op, second):
 
 calc(10, '+', 3)
 calc('abcd', '+', [10, 20, 30])
+First = int(input('Enter the First Number :').strip())
+Second = int(input('Enter the Second Number :').strip())
+Oper = input('Enter the operator +, -').strip()
+
+def calc(n1=First, op=Oper, n2=Second):
+  if n1.isdigit() and n2.isdigit():
+    if op == '+':
+      result = n1 + n2
+    elif op == '-':
+      result = n1-n2
+    else:
+      result = f'Operator is undefined'
+  else:
+    result = f'Either of inputs are non-numeric'
+  return(f'{n1} {op} {n2} = {result}')
