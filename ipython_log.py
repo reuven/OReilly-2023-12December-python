@@ -1006,3 +1006,5 @@ letter_frequency('hello world')
 s = 'ab|cd ef|gh'
 
 s.split('|')  # split on the vertical bar
+# I can also invoke str.split with no arguments
+s.split()   # now we'll split on whitespace
