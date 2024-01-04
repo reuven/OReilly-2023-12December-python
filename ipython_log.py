@@ -232,3 +232,39 @@ def calc(n1, op, n2):
     print(f'{n1} {op} {n2} = {tot}')
 
 calc(10, '+', 20)
+# HS
+
+def calc(a, b, op):
+    if op == '+':
+        result = a + b
+    elif op == '-':
+        result = a - b
+    else:
+        result = f'Unrecognized operator: {op}'
+    return result
+
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+op = input('Enter operator (+ or -): ')
+
+result = calc(a, b, op)
+
+print(f'Result of operator {op} is {result}')
+# HS
+
+def calc(a, b, op):
+    if op == '+':
+        result = a + b
+    elif op == '-':
+        result = a - b
+    else:
+        result = f'Unrecognized operator: {op}'
+    return result
+
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+op = input('Enter operator (+ or -): ')
+
+result = calc(a, b, op)
+
+print(f'Result of operator {op} is {result}')
