@@ -364,3 +364,6 @@ def hello(name):
     print(f'Hello, {name}!')
 
 hello('world')
+# how many characters are in the output from hello('world')?
+
+len(hello('world'))
