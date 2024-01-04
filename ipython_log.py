@@ -344,3 +344,5 @@ add(5, y=10)
 
 add(x=5, 10)
 add(first=5, second=10)
+# part of a function's "signature" in Python includes the names of the parameters
+# so that you can pass them in keyword arguments.
