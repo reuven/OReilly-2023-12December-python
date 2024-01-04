@@ -628,3 +628,12 @@ def smallest_integer(lst_of_int):
 result = smallest_integer(lst_of_int)
 
 print(f"The smallest integer in the list is: {result}")
+def smallest(numbers):
+    output = numbers[0]          # pretend the first element is the smallest
+
+    for one_number in numbers:
+        if one_number < output:   # is the current number smaller than our planned output?
+            output = one_number   # if so, then update the planned output to be one_number
+
+    return output
+    
