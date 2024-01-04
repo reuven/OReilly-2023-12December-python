@@ -436,3 +436,4 @@ def calc(first, op, second):
     return f'{first} {op} {second} = {result}'
 
 calc(10, '+', 3)
+calc('abcd', '+', [10, 20, 30])
