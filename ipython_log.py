@@ -569,3 +569,12 @@ def smallest(numbers):
     
 smallest([10, 20, 30, 40, 50])
 smallest([10, 20, 30, -5, 40, 50])
+# AD
+
+def smallest(mylist):
+    small = mylist[0]
+    for num in mylist[1:]:
+        if num < small:
+            small = num
+    return small
+print(smallest([-12, -210, 20, 8, -9, 30, 9]))
