@@ -651,3 +651,4 @@ def odds_and_evens(numbers):
             output['odds'].append(one_number)
 
     return output
+odds_and_evens([10, 15, 20, 25, 30, 35])
