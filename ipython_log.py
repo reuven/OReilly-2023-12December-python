@@ -156,3 +156,9 @@ x = 5
 x = 7
 
 print(x)
+# can I define a function with more than one parameter? Yes!
+
+def hello(first, last):
+    print(f'Hello, {first} {last}!')
+hello('Reuven', 'Lerner')
+hello('Reuven')
