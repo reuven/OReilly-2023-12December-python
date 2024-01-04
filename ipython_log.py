@@ -13,3 +13,6 @@ print(f'x={x}, y={y}, z={z}')
 print(f'{x=}, {y=}, {z=}')
 def hello():
     print('Hello!')
+# once I have defined a function, I can run it -- also "call it" or "execute it" with parentheses
+
+hello()
