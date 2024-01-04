@@ -147,3 +147,6 @@ hello('world')
 # arguments:  'world'
 
 hello('world')
+# what happens if I want to call it without any argument?
+
+hello()
