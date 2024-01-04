@@ -674,3 +674,7 @@ mylist.append(40)   # I have now added 40 to the end of mylist
 
 mylist
 odds_and_evens(5)
+# remember unpacking? That's where we take an interable on the right, and multiple variables
+# on the left of assignment
+
+myfunc()
