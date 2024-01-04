@@ -708,3 +708,6 @@ def biggest_and_smallest(numbers):
 
     
 biggest_and_smallest([10, 20, -5, -3, 12])
+biggest_int, smallest_int = biggest_and_smallest([10, 20, -5, -3, 12])
+biggest_int
+smallest_int
