@@ -1053,3 +1053,4 @@ def calc(first, second, op='+'):
 calc(10, 20, '-')
 calc(10, 20, '+')
 calc(10, 20)
+calc(10, 20)   # now this works, thanks to the default
