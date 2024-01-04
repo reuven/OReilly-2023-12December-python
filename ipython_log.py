@@ -941,3 +941,23 @@ def frequencies(s):
     return output
 
 help(frequencies)
+def frequencies(s):
+    """Count the number of times each character appears in a string.
+
+    Expects: One argument, a string
+    Modifies:  Nothing
+    Returns: A dictionary whose keys are the string's characters, and whose values are integers 
+             counting how many times that character appeared.
+    """
+    output = {}
+
+    for one_character in s:
+        if one_character in output:     # have we seen this character before?
+            output[one_character] += 1  #   if so, add 1 to its count
+        else:                           # no, it's the first time?
+            output[one_character] = 1   #   that's OK -- add the key-value pair to the dict
+            
+
+    return output
+
+help(frequencies)
