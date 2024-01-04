@@ -379,3 +379,5 @@ def hello(name):
     return f'Hello, {name}!'
 
 hello('world')   # we see the value in Jupyter, which then prints it - -but the function didn't print it
+len(hello('world'))   # hello returns a string, which then becomes the input to len
+s = hello('world')
