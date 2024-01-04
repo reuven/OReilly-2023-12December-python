@@ -467,3 +467,4 @@ def calc(n1, op, n2):
   else:
     result = f'Either of inputs are non-numeric'
   return(f'{n1} {op} {n2} = {result}')
+calc(First, Second, Oper)
