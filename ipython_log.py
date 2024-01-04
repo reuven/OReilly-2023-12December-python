@@ -191,3 +191,7 @@ def calc(first, op, second):
 calc(10, '+', 3)
 calc('a', 'b', 'c')
 calc('a', '-', 'c')
+for one_number in range(10):
+    print(calc(one_number, '+', 5))
+for one_number in range(10):
+    calc(one_number, '+', 5)
