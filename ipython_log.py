@@ -558,3 +558,12 @@ op1 = input("Enter First Number: ").strip()
 op = input("Enter Operator: ").strip()
 op2 = input("Enter Second Number: ").strip()    
 print(calc(op1, op, op2))
+def smallest(numbers):
+    output = numbers[0]
+
+    for one_number in numbers:
+        if one_number < output:   # is the current number smaller than our planned output?
+            output = one_number   # if so, then update the planned output to be one_number
+
+    return output
+    
