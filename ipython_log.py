@@ -1226,3 +1226,24 @@ def myfunc():
     return x    # there is no local x, so we'll return the value of the global x
 
 myfunc()
+# KP
+
+def calc(firstnumber, secondnumber, operator = '+'):
+
+  """ No help Avaliable. """
+
+  if operator == '+':
+    total = firstnumber + secondnumber
+  elif operator == '-':
+    total = firstnumber - secondnumber
+  elif operator == '*':
+    total = firstnumber * secondnumber
+  elif operator == '/':
+    total = firstnumber / secondnumber
+  else:
+    print('Unknown operator.')
+
+  print(f'{firstnumber} {operator} {secondnumber} = {total}') 
+
+# when i put calc(10, 20, 'G') rather then returning Unknown operator it returned an error
+calc(10, 20, 'G')
