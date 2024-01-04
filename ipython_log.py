@@ -107,3 +107,10 @@ def calc():
   print(f'{output=}')
 
 calc()
+# SJ
+def calc():
+    first_num=int(input("enter num1"))
+    second_num=int(input("enter num2"))
+    print(first_num+second_num)
+
+calc()
