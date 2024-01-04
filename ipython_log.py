@@ -637,3 +637,17 @@ def smallest(numbers):
 
     return output
     
+# here's a function that takes a list of integers as its input, 
+# and returns a dict whose keys are "odds" and "evens", and whose values
+# are lists of integers -- the odd and even values from our input
+
+def odds_and_evens(numbers):
+    output = {'odds':[], 'evens':[]}
+
+    for one_number in numbers:
+        if one_number % 2 == 0:    # if the remainder after dividing by 2 is 0
+            output['evens'].append(one_number)
+        else:
+            output['odds'].append(one_number)
+
+    return output
