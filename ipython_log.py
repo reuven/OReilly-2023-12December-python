@@ -484,3 +484,30 @@ def calc(n1, op, n2):
     result = f'Either of inputs are non-numeric'
   return(f'{n1} {op} {n2} = {result}')
 calc(First, Second, Oper)
+# isdigit -- is a string method, that you can only run on strings
+# but I wanted to pass integers as arguments...
+
+# VC
+
+def calc(first,operator,second):
+
+    if first.isdigit() == False or second.isdigit() == False:
+        return f'Entry is not a digit'
+
+    first = int(first)
+    second = int(second)
+
+    if op == '+':
+        result = first + second
+    elif op == '-':
+        result = first - second
+    else:
+        result = f'(Bad operator {op})'
+    
+    return f'{first} {op} {second} = {result}'
+
+first = input('Enter first number: ').strip()
+op = input('Enter operator: ').strip()
+second = input('Enter second number: ').strip()
+
+calc(first,op,second)
