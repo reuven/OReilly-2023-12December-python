@@ -692,3 +692,18 @@ def first_word(s):
 
 first_word('this is a test')
 len(first_word('this is a test'))   # the returned value from first_word is the argument to len
+def biggest_and_smallest(numbers):
+    # set both to be the first value in numbers
+    biggest = numbers[0]
+    smallest = numbers[0]
+
+    # go through each number, updating biggest/smallest as needed
+    for one_number in numbers:
+        if one_number > biggest:
+            biggest = one_number
+        if one_number < smallest:
+            smallest = one_number
+
+    return biggest, smallest   # return a tuple with what we found
+
+    
