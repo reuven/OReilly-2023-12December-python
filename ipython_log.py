@@ -786,3 +786,18 @@ def biggest_and_smallest(entry):
 biggest, smallest = biggest_and_smallest([3,-1,-5,5,7])
 biggest
 smallest
+# PD
+
+def bignsmall(nos):
+  small= nos[0]
+  big = nos[0]
+
+  for one_number in nos:
+    if one_number < small:
+     small= one_number
+    if one_number> big:
+      big= one_number
+
+  return small, big
+
+bignsmall(10,29,30)
