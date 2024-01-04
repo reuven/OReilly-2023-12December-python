@@ -691,3 +691,4 @@ def first_word(s):
     return s.split()[0]   # turn s into a list of strings, and return the first word
 
 first_word('this is a test')
+len(first_word('this is a test'))   # the returned value from first_word is the argument to len
