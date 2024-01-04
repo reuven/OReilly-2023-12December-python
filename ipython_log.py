@@ -352,3 +352,4 @@ add(x='abc', y='def')
 # can have quotes.
 
 add(x='abc', y='def')
+add(5, 10)
