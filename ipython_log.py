@@ -678,3 +678,10 @@ odds_and_evens(5)
 # on the left of assignment
 
 myfunc()
+# we can combine our function that returns a tuple with several variables,
+# and thus effectively get multiple values back from our function
+
+x, y, z = myfunc()
+x
+y
+z
