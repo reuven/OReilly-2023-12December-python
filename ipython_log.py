@@ -19,3 +19,7 @@ hello()
 # You *must* put the parentheses there -- otherwise, you get the function itself, not the result of running it
 
 hello
+# let's redefine our function
+
+def hello():
+    print('Hello?')
