@@ -602,3 +602,14 @@ def smallest(entry):
   return min
 
 smallest([3,35,-2,7]) 
+# VC
+
+def smallest(entry):
+  min = 0
+
+  for digit in entry:
+    if min > digit:
+      min = digit
+  return min
+
+smallest([3,35,-2,7]) 
