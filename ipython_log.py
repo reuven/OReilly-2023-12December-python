@@ -656,3 +656,9 @@ d = odds_and_evens([10, 15, 20, 25, 30, 35])
 
 for key, value in d.items():
     print(f'{key}: {value}')
+# I can return a tuple, as well
+
+def myfunc():
+    return (10, 'hello', [10, 20, 30])   # returning a tuple from our function
+
+myfunc()
