@@ -347,3 +347,8 @@ add(first=5, second=10)
 # part of a function's "signature" in Python includes the names of the parameters
 # so that you can pass them in keyword arguments.
 add(x='abc', y='def')
+# notice that the keyword argument itself (the variable name) comes before
+# the =, and doesn't have any quotes around it. The string value (after the =)
+# can have quotes.
+
+add(x='abc', y='def')
