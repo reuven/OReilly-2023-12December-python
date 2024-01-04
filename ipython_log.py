@@ -137,3 +137,6 @@ def calc():
     print(f'{num1} {oper} {num2} = {tot}')
 
 calc()
+def hello(name):    # this function requires one argument, which will be assigned to name
+    return f'Hello, {name}'
+hello('world')
