@@ -830,3 +830,11 @@ def frequencies(s):
 frequencies('this is a test')
 sentence = input('Enter a sentence: ').strip()
 frequencies(sentence)
+d = frequencies(sentence)
+
+for key, value in d.items():
+    print(f'{key}: {value')
+d = frequencies(sentence)
+
+for key, value in d.items():
+    print(f'{key}: {value}')
