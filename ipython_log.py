@@ -889,3 +889,7 @@ result = frequency(user_input)
 
 for char, count in result.items():
     print(f"'{char}' : {count} ")
+# let's say that I want to know about the "len" function
+# what does it do? What inputs do I give it? What outputs do I get back?
+
+help(len)     # in Jupyter, I can run the "help" function, passing a function as an argument
