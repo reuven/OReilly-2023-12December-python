@@ -910,3 +910,4 @@ def frequencies(s):
     return output
 
 frequencies('hello out there')
+help(frequencies)
