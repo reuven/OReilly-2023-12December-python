@@ -731,3 +731,24 @@ def biggest_and_smallest(num_list):
 
 b1, s1 = biggest_and_smallest([10,20,-5,-3,12,45,50])
 print(f'{b1=}, {s1=}')
+# HS
+
+#lst_of_int  = [10,20,-5,30,10,0]
+user_input = input("Enter elements of the list separated by spaces: ")
+lst_of_int = list(map(int, user_input.split()))
+
+def find_smallest_and_largest(lst_of_int):
+    
+    smallest = largest = lst_of_int[0]
+
+    for number in lst_of_int:
+        if number < smallest:
+            smallest = number
+        elif number > largest:
+            largest = number
+
+    return smallest, largest
+
+result = find_smallest_and_largest(lst_of_int)
+
+print(f"The smallest and largest integers in the list are: {result}")
