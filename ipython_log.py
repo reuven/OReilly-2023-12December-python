@@ -1003,3 +1003,6 @@ def letter_frequency(entry):
   return letter_dic
 
 letter_frequency('hello world')
+s = 'ab|cd ef|gh'
+
+s.split('|')  # split on the vertical bar
