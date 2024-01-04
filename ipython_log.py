@@ -1025,3 +1025,15 @@ hello('world')
 # arguments: '(no name)'
 
 hello()
+def calc(first, second, op):
+    if op == '+':
+        result = first + second
+
+    elif op == '-':
+        result = first - second
+
+    else:
+        result = f'(Unknown operator {op})'
+
+    return f'{first} {op} {second} = {result}'
+calc(10, 20, '-')
