@@ -1154,3 +1154,22 @@ def calc(first, second, op='+'):
     return f'{first} {op} {second} = {result}'
 
 help(calc)
+def calc(first, second, op='+'):
+    """Returns the result of applying our operator to two integers
+
+    Expects: Two integers (first and second) and a string (op) representing an operator
+    Modifies: Nothing
+    Returns: A string with the values and operator, with their result
+    """
+    if op == '+':
+        result = first + second
+
+    elif op == '-':
+        result = first - second
+
+    else:
+        result = f'(Unknown operator {op})'
+
+    return f'{first} {op} {second} = {result}'
+
+help(calc)
