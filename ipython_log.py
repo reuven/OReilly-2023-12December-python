@@ -662,3 +662,10 @@ def myfunc():
     return (10, 'hello', [10, 20, 30])   # returning a tuple from our function
 
 myfunc()
+# we don't need to put parentheses around a tuple -- the commas are enough
+# it's traditional when returning a tuple from a function not to put them there
+
+def myfunc():
+    return 10, 'hello', [10, 20, 30]   # still returning a tuple from our function!
+
+myfunc()
