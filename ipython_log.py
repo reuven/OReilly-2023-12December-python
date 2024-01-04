@@ -143,3 +143,7 @@ hello('world')
 def hello(name):    # this function requires one argument, which will be assigned to name
     print(f'Hello, {name}')
 hello('world')
+# parameters:  name
+# arguments:  'world'
+
+hello('world')
