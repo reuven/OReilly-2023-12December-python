@@ -396,3 +396,43 @@ def calc(first, op, second):
 
 x = calc(10, '+', 3)
 x
+# add a check for non-integers 
+# (not the best way to do it)
+
+def calc(first, op, second):
+    if type(first) != int:
+        return f'{first} is not an integer'
+
+    if type(second) != int:
+        return f'{second} is not an integer'
+
+    if op == '+':
+        result = first + second
+    elif op == '-':
+        result = first - second
+    else:
+        result = f'(Bad operator {op})'
+
+    return f'{first} {op} {second} = {result}'
+
+x = calc(10, '+', 3)
+# add a check for non-integers 
+# (not the best way to do it)
+
+def calc(first, op, second):
+    if type(first) != int:
+        return f'{first} is not an integer'
+
+    if type(second) != int:
+        return f'{second} is not an integer'
+
+    if op == '+':
+        result = first + second
+    elif op == '-':
+        result = first - second
+    else:
+        result = f'(Bad operator {op})'
+
+    return f'{first} {op} {second} = {result}'
+
+calc(10, '+', 3)
