@@ -179,3 +179,12 @@ def calc():
         result = f'(Bad operator {op})'
 
     print(f'{first} {op} {second} = {result}')
+def calc(first, op, second):
+    if op == '+':
+        result = first + second
+    elif op == '-':
+        result = first - second
+    else:
+        result = f'(Bad operator {op})'
+
+    print(f'{first} {op} {second} = {result}')
