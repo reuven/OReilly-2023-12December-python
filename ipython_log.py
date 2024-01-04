@@ -1021,3 +1021,7 @@ def hello(name='(no name)'):
 # arguments:   'world'
 
 hello('world')
+# parameters: name
+# arguments: '(no name)'
+
+hello()
