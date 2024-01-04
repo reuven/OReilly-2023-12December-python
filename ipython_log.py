@@ -189,3 +189,4 @@ def calc(first, op, second):
 
     print(f'{first} {op} {second} = {result}')
 calc(10, '+', 3)
+calc('a', 'b', 'c')
