@@ -373,3 +373,9 @@ def hello(name):
     return f'Hello, {name}!'
 
 hello('world')
+# let's use return instead:
+
+def hello(name):
+    return f'Hello, {name}!'
+
+hello('world')   # we see the value in Jupyter, which then prints it - -but the function didn't print it
