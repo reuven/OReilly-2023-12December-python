@@ -975,3 +975,17 @@ def letter_frequency(entry):
   return letter_dic
 
 letter_frequency('hello world')
+# VC
+
+def letter_frequency(entry):
+  letter_dic = {}
+
+  for letter in entry:
+    if letter in letter_dic:
+       letter_dic[letter] += 1  
+    else:
+      letter_dic[letter] + 1
+
+  return letter_dic
+
+letter_frequency('hello world')
