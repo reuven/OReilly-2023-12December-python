@@ -381,3 +381,6 @@ def hello(name):
 hello('world')   # we see the value in Jupyter, which then prints it - -but the function didn't print it
 len(hello('world'))   # hello returns a string, which then becomes the input to len
 s = hello('world')
+s = hello('world')   # assign the result to a variable
+
+s.upper()
