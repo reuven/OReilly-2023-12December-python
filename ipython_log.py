@@ -319,3 +319,5 @@ hello('world')
 hello(5)
 hello([10, 20, 30])
 hello(hello)
+def add(x, y):
+    print(f'{x} + {y} = {x+y}')   
