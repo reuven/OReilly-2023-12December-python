@@ -1204,3 +1204,19 @@ def myfunc():
 myfunc()
 
 print(x)
+# another, contrasting example
+
+x = 100
+
+def myfunc():
+    print x * 3
+
+myfunc()
+# another, contrasting example
+
+x = 100
+
+def myfunc():
+    print(x * 3)
+
+myfunc()
