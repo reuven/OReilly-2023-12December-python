@@ -45,3 +45,4 @@ def calc():
         result = f'(Bad operator {op})'
 
     print(f'{first} {op} {second} = {result}')
+calc()
