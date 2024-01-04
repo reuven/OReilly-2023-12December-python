@@ -150,3 +150,9 @@ hello('world')
 # what happens if I want to call it without any argument?
 
 hello()
+# think about this:
+
+x = 5
+x = 7
+
+print(x)
