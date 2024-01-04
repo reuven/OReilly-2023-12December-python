@@ -685,3 +685,9 @@ x, y, z = myfunc()
 x
 y
 z
+# If a function returns a value, then that value can be used as the argument for another function
+
+def first_word(s):
+    return s.split()[0]   # turn s into a list of strings, and return the first word
+
+first_word('this is a test')
