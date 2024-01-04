@@ -769,3 +769,20 @@ def biggest_and_smallest(entry):
 biggest_and_smallest([3,-1,-5,5,7])
 
 biggest, smallest = biggest_and_smallest
+# VC
+
+def biggest_and_smallest(entry):
+  smallest_num = entry[0]
+  
+
+  for digit in entry:
+    if smallest_num > digit:
+      smallest_num = digit
+    else:
+      biggest_num = digit
+  
+  return biggest_num, smallest_num 
+
+biggest, smallest = biggest_and_smallest([3,-1,-5,5,7])
+biggest
+smallest
