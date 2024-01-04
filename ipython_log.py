@@ -752,3 +752,20 @@ def find_smallest_and_largest(lst_of_int):
 result = find_smallest_and_largest(lst_of_int)
 
 print(f"The smallest and largest integers in the list are: {result}")
+# VC
+
+def biggest_and_smallest(entry):
+  smallest_num = entry[0]
+  
+
+  for digit in entry:
+    if smallest_num > digit:
+      smallest_num = digit
+    else:
+      biggest_num = digit
+  
+  return biggest_num, smallest_num 
+
+biggest_and_smallest([3,-1,-5,5,7])
+
+biggest, smallest = biggest_and_smallest
