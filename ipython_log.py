@@ -77,3 +77,33 @@ def calc():
   print(f'{output=}')
 
 calc()
+# CD
+
+def calc():
+
+  first_num = input("Enter the first number: ").strip()
+  if first_num.isdigit():
+    first_num = int(first_num)
+
+  operator = input("Enter an operator: ").strip()
+
+  second_num = input("Enter the second number: ").strip()
+  if second_num.isdigit():
+    second_num = int(second_num)
+
+  if operator == '+':
+    output = first_num + second_num
+
+  if operator == '-':
+    output = first_num - second_num
+
+  if operator == '*':
+    output = first_num * second_num
+
+  if operator == '/':
+    output = first_num / second_num
+
+
+  print(f'{output=}')
+
+calc()
