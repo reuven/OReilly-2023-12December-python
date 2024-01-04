@@ -200,3 +200,24 @@ for one_number in range(10):
 
 for one_number in range(10):
     calc(one_number, '+', 5)
+# AJ 
+
+num1 = input('Enter first number: ').strip()
+oper = input('Enter the operator (+/-)').strip()
+num2 = input('Enter second number: ').strip()
+
+if not num1.isdigit() or not num2.isdigit():
+    print('Please enter numbers')
+
+if not oper in ('+-'):
+    print('Please enter correct operator')
+    
+def calc(n1, op, n2):
+    if op == '+':
+        tot = int(n1) + int(n2)
+    elif op =='-':
+        tot = int(n1) - int(n2)
+    
+    print(f'{n1} {op} {n2} = {tot}')
+
+calc(num1, oper, num2)
