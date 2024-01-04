@@ -268,3 +268,18 @@ op = input('Enter operator (+ or -): ')
 result = calc(a, b, op)
 
 print(f'Result of operator {op} is {result}')
+# PD
+
+a= int(input('enter 1st No').strip())
+b= input('enter the operator').strip()
+c= int(input('enter 2nd No.').strip())
+
+def calc(first,op,second):
+  if op == '+':
+    print(a+b)
+  elif op=='-':
+    print(a-b)
+  else:
+    print('Dont Know')
+      
+calc(a,b,c)
