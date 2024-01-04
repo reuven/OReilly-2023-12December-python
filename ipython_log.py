@@ -360,3 +360,7 @@ add(5, 10)
 
 add(x=5, y=10)
 add()
+def hello(name):
+    print(f'Hello, {name}!')
+
+hello('world')
