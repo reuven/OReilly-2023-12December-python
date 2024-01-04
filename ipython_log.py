@@ -801,3 +801,18 @@ def bignsmall(nos):
   return small, big
 
 bignsmall(10,29,30)
+# PD
+
+def bignsmall(nos):
+  small= nos[0]
+  big = nos[0]
+
+  for one_number in nos:
+    if one_number < small:
+     small= one_number
+    if one_number> big:
+      big= one_number
+
+  return small, big
+
+bignsmall([10,29,30])
