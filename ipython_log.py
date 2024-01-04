@@ -854,3 +854,19 @@ def printFrequencies(s):
     for item in freq.items():
         print(f'{item}: {freq[item]}')
 printFrequencies('this is a test')
+# AD
+
+def frequency(s):
+    myDictionary = {}
+    for char in s:
+        if char in myDictionary:
+            myDictionary[char] += 1
+        else:
+            myDictionary[char] = 1
+    return myDictionary
+
+def printFrequencies(s):
+    freq = frequency(s)
+    for key, value in freq.items():    # items returns (key, value)
+        print(f'{key}: {value}')
+printFrequencies('this is a test')
