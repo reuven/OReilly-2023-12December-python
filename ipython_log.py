@@ -711,3 +711,7 @@ biggest_and_smallest([10, 20, -5, -3, 12])
 biggest_int, smallest_int = biggest_and_smallest([10, 20, -5, -3, 12])
 biggest_int
 smallest_int
+# 2-element tuple on the right
+# assigned to two variables on the left via unpacking
+
+biggest_int, smallest_int = biggest_and_smallest([10, 20, -5, -3, 12])
