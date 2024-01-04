@@ -367,3 +367,9 @@ hello('world')
 # how many characters are in the output from hello('world')?
 
 len(hello('world'))
+# let's use return instead:
+
+def hello(name):
+    return f'Hello, {name}!'
+
+hello('world')
