@@ -384,3 +384,15 @@ s = hello('world')
 s = hello('world')   # assign the result to a variable
 
 s.upper()
+def calc(first, op, second):
+    if op == '+':
+        result = first + second
+    elif op == '-':
+        result = first - second
+    else:
+        result = f'(Bad operator {op})'
+
+    return f'{first} {op} {second} = {result}'
+
+x = calc(10, '+', 3)
+x
