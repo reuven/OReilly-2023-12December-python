@@ -120,3 +120,6 @@ sys.path       # list of strings, directory names + zipfiles, where Python looks
 
 import mymod
 mymod  # show me your printed representation
+# what names are defined in this module?
+
+dir(mymod)
