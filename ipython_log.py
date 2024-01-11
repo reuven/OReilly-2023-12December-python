@@ -30,3 +30,6 @@ def count_ips(filename):
 
 print(count_ips('logfile.txt'))
 one_line
+for one_line in open('logfile.txt'):
+    pass   # do nothing
+one_line
