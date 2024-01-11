@@ -1,4 +1,5 @@
-print(f'Hello from {__name__}!')
+if __name__ == '__main__':
+    print(f'Hello from {__name__}!')
 
 x = 100
 
@@ -9,4 +10,5 @@ z = {'a':100, 'b':200, 'c':300}
 def hello(name):
     return f'Hello, {name}!'
 
-print(f'Goodbye from {__name__}!')
+if __name__ == '__main__':
+    print(f'Goodbye from {__name__}!')
