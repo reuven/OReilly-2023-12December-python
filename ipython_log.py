@@ -233,3 +233,6 @@ help(financetoolkit)
 import rich
 
 rich.print('Hello, world')
+import rich
+
+rich.print('Hello, [blue on yellow]world[/blue on yellow]')
