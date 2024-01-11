@@ -358,3 +358,5 @@ def frequencies(s):   # get a string from the caller
     return output
 
 result = frequencies(words)
+results
+result
