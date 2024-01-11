@@ -135,3 +135,4 @@ importlib.reload(mymod)    # reload a module
 mymod.x
 mymod.y
 mymod.z
+mymod.hello('world')
