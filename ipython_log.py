@@ -154,3 +154,4 @@ Counter([10, 20, 30, 20, 30, 40, 20, 30, 40, 20])
 from collections import Counter
 
 Counter([10, 20, 30, 20, 30, 40, 20, 30, 40, 20])  # pass an iterable to Counter
+Counter('this is a bunch of words and it is a bunch of great words and I am writing too many words'.split())
