@@ -123,3 +123,4 @@ mymod  # show me your printed representation
 # what names are defined in this module?
 
 dir(mymod)
+mymod.__file__
