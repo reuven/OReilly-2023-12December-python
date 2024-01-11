@@ -73,3 +73,8 @@ randint(0, 100)
 
 import random as r     # this loads the module, but doesn't define "random" as a variable. It defines "r" instead
 r.randint(0, 100)
+# maybe there's already another "randint" that I don't want to clobber
+# maybe I just want a shorter alias
+
+from random import randint as ri     # now, randint won't be defined -- ri will
+ri(0, 100)
