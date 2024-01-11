@@ -115,3 +115,7 @@ random   # ask the module to show me its printed representation
 
 import sys     # load the Python runtime system
 sys.path       # list of strings, directory names + zipfiles, where Python looks for modules
+# when we say "import ABCD", Python looks for ABCD.py in each of these directories + zipfiles, one
+# at a time. The first one to have a match wins!
+
+import mymod
