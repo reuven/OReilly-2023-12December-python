@@ -105,3 +105,6 @@ while True:
         
         
 dir(random)
+# you can always run help on any one of these
+
+help(random.triangular)
