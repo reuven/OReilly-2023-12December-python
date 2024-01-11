@@ -192,3 +192,17 @@ c = Counter(ip_addresses)
 # iterate over the Counter, printing the addresses + counts
 for key, value in c.items():
     print(f'{key}: {value}')
+from collections import Counter
+
+# get a list of the IP addresses in the file
+ip_addresses = []
+
+for one_line in open('mini-access-log.txt'):
+    ip_addresses.append(one_line.split()[0]) 
+
+# create a Counter object with those addresses
+c = Counter(ip_addresses)
+
+# iterate over the Counter, printing the addresses + counts
+for key, value in c.items():
+    print(f'{key}:\t{value}')
