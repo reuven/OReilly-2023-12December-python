@@ -230,3 +230,6 @@ for key, value in c.items():
     print(f'{key}:\t{value * "x"}')
 import financetoolkit
 help(financetoolkit)
+import rich
+
+rich.print('Hello, world')
