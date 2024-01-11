@@ -148,3 +148,6 @@ print(f'User chose {user_choice}')
 import mymod
 import mymod
 import mymod
+from collections import Counter
+
+Counter([10, 20, 30, 20, 30, 40, 20, 30, 40, 20])
