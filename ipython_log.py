@@ -139,3 +139,6 @@ mymod.hello('world')
 import menu
 user_choice = menu.menu(['a', 'b', 'c'])   # user must choose a, b, or c
 print(f'User chose {user_choice}')
+import menu
+user_choice = menu.menu(['a', 'b', 'c'])   # user must choose a, b, or c
+print(f'User chose {user_choice}')
