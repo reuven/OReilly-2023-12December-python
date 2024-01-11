@@ -127,3 +127,8 @@ mymod.__file__
 mymod.__name__
 import mymod
 dir(mymod)
+# if you're running Jupyter, then you typically need to tell Python to reload a module
+# if you've already loaded it before. You can do that with
+
+import importlib           # yes, a module for working with modules!
+importlib.reload(mymod)    # reload a module 
