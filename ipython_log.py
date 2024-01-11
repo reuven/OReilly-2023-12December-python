@@ -206,3 +206,6 @@ c = Counter(ip_addresses)
 # iterate over the Counter, printing the addresses + counts
 for key, value in c.items():
     print(f'{key}:\t{value}')
+# we know that we cannot add a string and an integer together
+
+5 + '*'
