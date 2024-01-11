@@ -295,3 +295,26 @@ while True:
         rich.print('[lightblue]Too high[/lightblue]')
         
         
+import random
+import rich
+
+number = random.randint(0, 100)  
+
+while True:
+    s = input('Guess the number: ').strip()
+
+    if not s.isdigit():
+        print(f'{s} is not numeric; try again')
+        continue
+
+    guess = int(s)    # get an integer based on the user's input
+
+    if guess == number:
+        rich.print('[yellow on red]You got it[/yellow on red]:confetti_ball:!')
+        break
+    elif guess < number:
+        rich.print('[red]Too low[/red]')
+    else:
+        rich.print('[lightblue]Too high[/lightblue]')
+        
+        
