@@ -242,3 +242,6 @@ rich.print('Hello, [blue on yellow][bold]world[/bold][/blue on yellow]')
 import rich
 
 rich.print('[pink]Hello[/pink], [blue on yellow][bold]world[/bold][/blue on yellow]')
+import rich
+
+rich.print('[red]Hello[/red], [blue on yellow][bold]world[/bold][/blue on yellow]')
