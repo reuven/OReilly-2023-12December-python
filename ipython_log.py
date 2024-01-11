@@ -65,3 +65,11 @@ from random import randint
 # the above does *not* define random as a variable
 # but it *does* define "randint" as a variable (function) name that we can use
 randint(0, 100)
+# are there other options?
+# if the module name is long, hard to spell, or just annoying, you can load the module
+# and give it an alias, an alternate name
+
+# this is *very* common in the world of data analysis, where everyone calls NumPy np and Pandas pd
+
+import random as r     # this loads the module, but doesn't define "random" as a variable. It defines "r" instead
+r.randint(0, 100)
