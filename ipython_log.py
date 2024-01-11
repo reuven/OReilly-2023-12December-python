@@ -79,3 +79,6 @@ r.randint(0, 100)
 from random import randint as ri     # now, randint won't be defined -- ri will
 ri(0, 100)
 from random import randint as ri, choice as ch
+# I can define multiple aliases within a single module, loading these two names
+
+from random import randint as ri, choice as ch
