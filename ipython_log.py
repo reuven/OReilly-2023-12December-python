@@ -132,3 +132,6 @@ dir(mymod)
 
 import importlib           # yes, a module for working with modules!
 importlib.reload(mymod)    # reload a module 
+mymod.x
+mymod.y
+mymod.z
