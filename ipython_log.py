@@ -104,3 +104,4 @@ while True:
         print('Too high')
         
         
+dir(random)
