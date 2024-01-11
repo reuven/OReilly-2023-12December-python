@@ -155,3 +155,13 @@ from collections import Counter
 
 Counter([10, 20, 30, 20, 30, 40, 20, 30, 40, 20])  # pass an iterable to Counter
 Counter('this is a bunch of words and it is a bunch of great words and I am writing too many words'.split())
+# get a list of the IP addresses in the file
+ip_addresses = []
+
+for one_line in open('mini-access-log.txt'):
+    ip_addresses.append(one_line.split()[0]) 
+
+ip_addresses    
+# create a Counter object with those addresses
+
+# iterate over the Counter, printing the addresses + counts
