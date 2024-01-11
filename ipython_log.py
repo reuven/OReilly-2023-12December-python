@@ -46,3 +46,6 @@ type(random)
 # if I want to use a function defined in the random module, I say random.FUNCNAME()
 
 random.randint(0, 100)   # this returns a single random int in the range 0-100
+# what happens if I tire of saying random.randint? What if I just want to say randint?
+
+randint(0, 100)
