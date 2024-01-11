@@ -125,3 +125,4 @@ mymod  # show me your printed representation
 dir(mymod)
 mymod.__file__
 mymod.__name__
+import mymod
