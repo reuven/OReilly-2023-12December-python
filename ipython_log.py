@@ -360,3 +360,5 @@ def frequencies(s):   # get a string from the caller
 result = frequencies(words)
 results
 result
+for one_character, count in result.items():
+    print(f"'{one_character}' : {count}")
