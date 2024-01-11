@@ -82,3 +82,25 @@ from random import randint as ri, choice as ch
 # I can define multiple aliases within a single module, loading these two names
 
 from random import randint as ri, choice as ch
+import random
+
+number = random.randint(0, 100)  
+
+while True:
+    s = input('Guess the number: ').strip()
+
+    if not s.isdigit():
+        print(f'{s} is not numeric; try again')
+        continue
+
+    guess = int(s)    # get an integer based on the user's input
+
+    if guess == number:
+        print('You got it!')
+        break
+    elif guess < number:
+        print('Too low')
+    else:
+        print('Too high')
+        
+        
