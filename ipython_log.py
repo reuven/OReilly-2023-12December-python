@@ -151,3 +151,6 @@ import mymod
 from collections import Counter
 
 Counter([10, 20, 30, 20, 30, 40, 20, 30, 40, 20])
+from collections import Counter
+
+Counter([10, 20, 30, 20, 30, 40, 20, 30, 40, 20])  # pass an iterable to Counter
