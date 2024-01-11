@@ -53,3 +53,15 @@ randint(0, 100)
 # right now, randint doesn't exist as a variable. It exists as an attribute on the random module we loaded
 
 randint(0, 100)
+# there are many times that we might be using a function so often that we tire of saying both
+# the module name and the function name. In such cases, we want the function to be loaded as a variable,
+# rather than the module
+
+# for that, we have this syntax:
+
+from random import randint
+
+# the above still loads the entire random module into memory
+# the above does *not* define random as a variable
+# but it *does* define "randint" as a variable (function) name that we can use
+randint(0, 100)
