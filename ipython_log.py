@@ -341,3 +341,20 @@ while True:
         rich.print('[blue]Too high[/blue]')
         
         
+# AO
+
+words = input('enter a sentence: ').strip()
+
+def frequencies(s):   # get a string from the caller
+    output = {}       # create a dict
+    
+    for one_character in s:
+        if one_character in output:     # have we seen this character before
+            output[one_character] += 1  # if so, add 1 to its count
+            
+        else:                           # no it's the first time
+            output[one_character] = 1   # that's ok -- add the key-value pair to the dict
+            
+    return output
+
+result = frequencies(words)
