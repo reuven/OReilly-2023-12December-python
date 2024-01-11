@@ -34,3 +34,4 @@ for one_line in open('logfile.txt'):
     pass   # do nothing
 one_line
 one_line[:12]
+one_line[13:14]
