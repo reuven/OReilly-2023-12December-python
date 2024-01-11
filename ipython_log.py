@@ -49,3 +49,7 @@ random.randint(0, 100)   # this returns a single random int in the range 0-100
 # what happens if I tire of saying random.randint? What if I just want to say randint?
 
 randint(0, 100)
+# what happens if I tire of saying random.randint? What if I just want to say randint?
+# right now, randint doesn't exist as a variable. It exists as an attribute on the random module we loaded
+
+randint(0, 100)
