@@ -111,3 +111,7 @@ help(random.triangular)
 # where are modules getting loaded from?
 
 random   # ask the module to show me its printed representation
+# where can these files live?
+
+import sys     # load the Python runtime system
+sys.path       # list of strings, directory names + zipfiles, where Python looks for modules
