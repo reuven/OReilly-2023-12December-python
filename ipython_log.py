@@ -245,3 +245,4 @@ rich.print('[pink]Hello[/pink], [blue on yellow][bold]world[/bold][/blue on yell
 import rich
 
 rich.print('[red]Hello[/red], [blue on yellow][bold]world[/bold][/blue on yellow]')
+rich.print('You got it! :thumbsup:')
