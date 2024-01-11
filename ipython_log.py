@@ -209,3 +209,9 @@ for key, value in c.items():
 # we know that we cannot add a string and an integer together
 
 5 + '*'
+# we know that we cannot add a string and an integer together
+
+5 + 'x'
+# what about multiplication?
+
+5 * 'x'
