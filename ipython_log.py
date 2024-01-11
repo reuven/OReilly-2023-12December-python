@@ -119,3 +119,4 @@ sys.path       # list of strings, directory names + zipfiles, where Python looks
 # at a time. The first one to have a match wins!
 
 import mymod
+mymod  # show me your printed representation
