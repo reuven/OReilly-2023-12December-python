@@ -247,3 +247,4 @@ import rich
 rich.print('[red]Hello[/red], [blue on yellow][bold]world[/bold][/blue on yellow]')
 rich.print('You got it! :thumbsup:')
 rich.print('can I [bold]bold[/bold]?')
+rich.print('can I [italic]italic[/italic]?')
