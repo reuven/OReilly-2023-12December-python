@@ -229,3 +229,4 @@ c = Counter(ip_addresses)
 for key, value in c.items():
     print(f'{key}:\t{value * "x"}')
 import financetoolkit
+help(financetoolkit)
