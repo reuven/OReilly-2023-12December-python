@@ -35,3 +35,11 @@ for one_line in open('logfile.txt'):
 one_line
 one_line[:12]
 one_line[13:14]
+# let's say I want a random integer
+# I can use the "random" module for that, and the "randint" function in that module
+
+import random
+
+# after this line runs, "random" is defined as a variable
+
+type(random)
