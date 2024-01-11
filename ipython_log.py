@@ -215,3 +215,16 @@ for key, value in c.items():
 # what about multiplication?
 
 5 * 'x'
+# rewrite our Counter-using IP address counter ...
+
+from collections import Counter
+
+ip_addresses = []
+
+for one_line in open('mini-access-log.txt'):
+    ip_addresses.append(one_line.split()[0]) 
+
+c = Counter(ip_addresses)
+
+for key, value in c.items():
+    print(f'{key}:\t{value * "x"}')
