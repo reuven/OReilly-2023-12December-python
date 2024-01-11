@@ -108,3 +108,6 @@ dir(random)
 # you can always run help on any one of these
 
 help(random.triangular)
+# where are modules getting loaded from?
+
+random   # ask the module to show me its printed representation
